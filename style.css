@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
 }
 
 html {
@@ -19,7 +20,8 @@ a {
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    margin-bottom: 10px;
+    
+    margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: .2rem;
     text-align: center;
@@ -433,7 +435,10 @@ p {
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 20px
+    padding: 10px 20px
+}
+#about .section-title h1{
+    margin: 10px;
 }
 
 #about .col-left {
@@ -501,11 +506,12 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0;
+    justify-items: center;
+    margin: 20px;
 }
 
 #contact .contact-item {
-    width: 80%;
+    width: 75%;
     padding: 20 px;
     text-align: center;
     border-radius: 10px;
@@ -595,7 +601,24 @@ p {
 
 /* Media Query of Tablet*/
 
-@media only screen and (max-width:768px) {}
+@media only screen and (max-width:768px) {
+
+    #services .service-item{
+        flex-basis: auto;
+        flex-direction: column;
+        margin: 40px 40px 0px 40px;
+        padding: 20px;
+    }
+    
+#contact .contact-items{
+  
+    flex-direction: column;
+    margin: 40px 40px 0px 40px;
+}
+#contact .contact-item{
+    box-sizing: 20%;
+}
+}
 
 @media only screen and (min-width:768px) {
     .cta {
