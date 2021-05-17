@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
 }
 
 html {
@@ -20,7 +19,6 @@ a {
     font-size: 4rem;
     font-weight: 300;
     color: black;
-    
     margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -47,12 +45,15 @@ p {
 }
 
 .container {
-    min-height: 100vh;
+    min-height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
 }
+#hero .container{
+    min-height: 100vh;
+} 
 
 .cta {
     display: inline-block;
@@ -345,6 +346,7 @@ p {
 
 /* Services Sectiom */
 
+
 #services .services {
     flex-direction: column;
     text-align: center;
@@ -437,7 +439,8 @@ p {
     margin: 0 auto;
     padding: 10px 20px
 }
-#about .section-title h1{
+
+#about .section-title h1 {
     margin: 10px;
 }
 
@@ -602,22 +605,19 @@ p {
 /* Media Query of Tablet*/
 
 @media only screen and (max-width:768px) {
-
-    #services .service-item{
+    #services .service-item {
         flex-basis: auto;
         flex-direction: column;
         margin: 40px 40px 0px 40px;
         padding: 20px;
     }
-    
-#contact .contact-items{
-  
-    flex-direction: column;
-    margin: 40px 40px 0px 40px;
-}
-#contact .contact-item{
-    box-sizing: 20%;
-}
+    #contact .contact-items {
+        flex-direction: column;
+        margin: 40px 40px 0px 40px;
+    }
+    #contact .contact-item {
+        box-sizing: 20%;
+    }
 }
 
 @media only screen and (min-width:768px) {
