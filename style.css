@@ -368,7 +368,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     margin-top: 50px 50px;
     flex-basis: 50px;
 }
@@ -594,6 +594,8 @@ p {
 /*End of footer*/
 
 /* Media Query of Tablet*/
+
+@media only screen and (max-width:768px) {}
 
 @media only screen and (min-width:768px) {
     .cta {
