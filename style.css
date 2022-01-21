@@ -51,7 +51,7 @@ p {
     align-items: center;
     justify-content: center;
 }
-#hero .container{
+#home .container{
     min-height: 100vh;
 } 
 
@@ -233,7 +233,7 @@ p {
 
 /*End header section*/
 
-#hero {
+#home {
     background-image: url(./img/collage.jpg);
     background-size: cover;
     background-position: top center;
@@ -241,7 +241,7 @@ p {
     z-index: 1;
 }
 
-#hero ::after {
+#home ::after {
     content: '';
     position: absolute;
     left: 0;
@@ -253,14 +253,14 @@ p {
     z-index: -1;
 }
 
-#hero .hero {
+#home .home {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
     justify-content: flex-start;
 }
 
-#hero h1 {
+#home h1 {
     display: block;
     width: fit-content;
     font-size: 4rem;
@@ -270,20 +270,20 @@ p {
     animation-delay: 1s;
 }
 
-#hero h1:nth-child(1) {
+#home h1:nth-child(1) {
     animation-delay: 1s;
 }
 
-#hero h1:nth-child(2) {
+#home h1:nth-child(2) {
     animation-delay: 2s;
 }
 
-#hero h1:nth-child(3) {
+#home h1:nth-child(3) {
     animation: text_reveal_name 0.5s ease forwards;
     animation-delay: 3s;
 }
 
-#hero h1 span {
+#home h1 span {
     position: absolute;
     top: 0;
     left: 0;
@@ -294,15 +294,15 @@ p {
     animation-delay: 0.5s;
 }
 
-#hero h1:nth-child(1) span {
+#home h1:nth-child(1) span {
     animation-delay: 0.5s;
 }
 
-#hero h1:nth-child(2) span {
+#home h1:nth-child(2) span {
     animation-delay: 1.5s;
 }
 
-#hero h1:nth-child(3) span {
+#home h1:nth-child(3) span {
     animation-delay: 2.5s;
 }
 
@@ -628,7 +628,7 @@ p {
     h1.section-title {
         font-size: 6rem;
     }
-    #hero h1 {
+    #home h1 {
         font-size: 4rem;
     }
     #services .service-bottom .service-item {
